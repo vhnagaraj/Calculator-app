@@ -1,0 +1,61 @@
+.center {
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 10%; /* Reduced width to 80% of the viewport width */
+    max-width: 350px; /* Set a maximum width to ensure it doesn't get too wide on larger screens */
+    margin: auto; /* Centering the container horizontally */
+}
+
+
+.button {
+    border-radius: 30vh;
+    border-color: aliceblue;
+    background-color: darkgrey;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#q {
+    border-radius: 30vh;
+    background-color: goldenrod;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: white;
+    color: white;
+}
+
+#r {
+    background-color: red;
+    color: white;
+}
+
+.input {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    color: black;
+    border-radius: 1vh;
+}
+
+body {
+    background-color: #ffc307;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+
+h1{
+    color: black;
+}
